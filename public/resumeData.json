@@ -1,0 +1,134 @@
+{
+  "jolt": {
+    "type": "lines",
+    "description": "Jolt is by far the most technically interesting and challenging project I've worked on. To understand the current extent of my engineering abilities, it's worth taking a look at Jolt. For those with a technical background, I would recommend looking at the technical case study, otherwise I would recommend watching the presentation",
+    "video": "joltprocess.mp4",
+    "image": "color_logo_for_dark_bg.png",
+    "presentation":"https://youtu.be/P5G68KjzIoA",
+    "writeup":"https://core-jamstack.github.io/jolt-framework/#case-study"
+  },
+  "main": {
+    "type": "lines",
+    "name":"Rodney Matambo",
+    "description":"I'm a Full Stack Software Engineer who is passionate about solving problems. I have multiple years of experience programming. I have used languages like JavaScript, GoLang, Ruby, SQL, HTML and CSS, I have also worked extensively with AWS and hold a Cloud Practitioner Certification with AWS. I recently co-created Jolt a lightweight-open source framework for deploying JAMstack Applications(static sites) with serverless functions",
+    "image":"profilepic.png",
+    "bio":"I am a happily married father of three and a Christian. I was born in Zimbabwe, moved to Scotland at the age of 7 and the United States(US Citizen) at age 13. I currently live in Puerto Rico(US Territory) where I've learned Spanish. I can speak 3 languages: English, Spanis and Shona which has helped me pick up programming languages quickly. I Like experiencing new things, and I like meeting new people. My favorite sports teams are the OKC Thunder(I know they're bad right now) and Chelsea FC(i know...). \n By trade, I have been a teacher, school director, public speaker, VP of organizations, web developer and software engineer. That's mainly because I spent most of my twenties teaching and doing non-profit work/mission projects around the world where I had to wear many hats. One of my favorite hats was developing websites or software for underpriviledged communities. I realized I had some gaps as I was self taught at the time. Over the last several years, I have decided to focus on software engineering by starting with the fundamentals and building my way up. \n This process has culminated in a project I recently built called Jolt which is a lightweight, open-source framework for Deploying JAMstack + Serverless Applications. ",
+    "contactmessage":"You can send me an email directly if you would like to talk",
+    "email": "rmatambo8@icloud.com",
+    "github":"https://github.com/rmatambo8",
+    "project":"https://core-jamstack.github.io/jolt-framework/#start-here",
+    "address":{
+      "state":"Anasco",
+      "zip": "Puerto Rico"
+    },
+    "website": "rodneymatambo.com",
+    "resumedownload":"/final-resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"mailto: rmatambo8@icloud.com",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/rmatambo8/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/rmatambo8",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Below is my core programming skillset and my comfort level with each skill respectively, some I haven't worked with in over a year but can pick back up quickly with documentation",
+    "education":[
+      {
+        "school":"Launch School",
+        "degree":"Software Engineering Program",
+        "graduated":"Jan 2021",
+        "description":"A program that focuses on mastering the fundamentals of software engineering."
+      },
+      {
+        "school":"Western Governers University",
+        "degree":"B.A Educational Studies(Chemistry Education)",
+        "graduated":"August 2019",
+        "description":"Covered subjects including: Advanced Chemistry, Physics, Educational Practices, Communication, Motivation, and Leadership."
+      },
+      {
+        "school":"Tulsa Technology Center",
+        "degree":"Cisco Certified Network Associate Program",
+        "graduated":"May 2010",
+        "description":"won 3rd place in the state for proficiency with networking, network protocols, TCP/IP, subnets, routing protocols, and practical programming of switches and routers"
+      }
+    ],
+    "work":[
+      {
+        "company":"Jolt",
+        "title":"Co-Creater, Software Engineer",
+        "years":"2021 - Present",
+        "description":"Designed and lead the implementation of atomic deployments, rollbacks and teardown of AWS cloud app infrastructure using the SDK(IAM, API Gateway, Lambda, DynamoDB, CloudFront, S3) \n Implemented relative path redirection from CloudFront to API Gateway using edge computing (Lambda@Edge, CORS, HTTP) \n Contributed to creating a local testing environment for testing serverless functions with applications(Express, AWS Lambda). \n Implemented the mvp of Jolt using the AWS GoLang SDK(later switched to JS SDK) \n Worked with a remote team of engineers during sprints to make design decisions for Jolt(Agile Workflow). \n Authored Jolt's Technical Case-Study: https://core-jamstack.github.io/jolt-framework/"
+      },
+      {
+        "company":"Self-Employed",
+        "title":"Full Stack Software Engineer",
+        "years":"2020 - 2021",
+        "text": "I built and deployed the following projects and worked with the technologies listed:",
+        "description":"COREbin - a realtime RequestBin clone for interacting with and debugging webhooks(Node, Socket.io(websockets), Nginx, Redis, Digital Ocean Droplet, PM2) \n Trollo - A trello Clone(MongoDB, Express, Node, React-Redux, ReactDnD, Moment) \n Shopping Cart - a simple Shopping Cart App(React-Redux, Graphql API, MongoDB, Node) \n Contacts: A contacts manager app(jQuery, Express, Node, PostgreSQL) \n JAMboard: an interactive whiteboard(Gatsby, Netlify Functions, FaunaDB, Node)."
+      }
+    ],
+    "skills":[
+      {
+        "name":"JS(Vanilla, React, Node, jQuery)",
+        "level":"90%"
+      },
+      {
+        "name": "AWS(Console & CLI)",
+        "level":"70%"
+      },
+      {
+        "name":"GoLang",
+        "level":"70%"
+      },
+      {
+        "name":"Ruby(Vanilla, Sinatra)",
+        "level":"60%"
+      },
+      {
+        "name":"SQL(PostgreSQL)",
+        "level":"60%"
+      },
+      {
+        "name":"HTML",
+        "level":"90%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"CoreBin",
+        "category":"a request bin clone that allows for debugging webhooks ",
+        "image":"corebin.png",
+        "url":"bin.ezraellette.com"
+
+      },
+      {
+        "title":"Trollo",
+        "category":"(Offline)A Trello Clone that allows for collaborative tracking of content with drag and drop functionality",
+        "image":"trollo.png"
+      },
+      {
+        "title":"Contact Manager",
+        "category":"A simple contact manager application",
+        "image":"contacts.png",
+        "url":"rodneymatambo.com/contacts_db"
+      }
+    ]
+  }
+}
